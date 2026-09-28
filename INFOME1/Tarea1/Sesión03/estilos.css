@@ -1,0 +1,131 @@
+header #logo{
+    float: left;
+}
+header #buscador{
+    float: right;
+}
+nav ul#menu_principal{
+    display: inline;
+    float: left;
+}
+#contenido section img{
+    width: 100px;
+    float: left;
+}
+ul, ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1, h2, h3, p, form{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+img{
+    border: none;
+}
+#contenedor{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+header, nav, aside, #contenido,
+#contenido, article, #contenido aside,
+footer{
+    border: 2px solid #777;
+}
+footer .enlaces{
+    float: left;
+}
+footer .copyright{
+    float: right;
+}
+header{
+    background-color: #79C034;
+    border: 1px solid #8AD719;
+}
+#contenido article header{
+    background-color: transparent;
+    border: none;
+}
+aside{
+    float: left;
+    width: 20%;
+}
+#contenido{
+    float: right;
+    width: 78%;
+}
+#contido article{
+    float: left;
+    width: 73%;
+}
+#contenido aside{
+    float: right;
+    width: 20%;
+}
+#pie{
+    clear: both;
+}
+header, nav, aside, aside #noticias, aside #publicidad, #contenido,
+#contenido, article, #contenido aside, footer{
+    padding: .5em;
+    border: none;
+}
+aside{
+    padding: 0;
+    background-color: #37AEE8;
+}
+header{
+    padding: 1em;
+}
+nav{
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #004C99;
+    font-weight: bold;
+    clear: both;
+    background-color: #666;
+}
+#contenido{
+    width: 77%;
+    padding: 0;
+}
+a{
+    color: #F60;
+    text-decoration: none;
+}
+a:hover{
+    color: #690;
+}
+body{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+#contenido aside{
+    border: 1px solid #C60;
+    background-color: #FC0;
+}
+footer{
+    padding: 0.5em;
+    margin-top: 1em;
+    border-top: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+    background-color: #585858;    
+}
+article{
+    margin-bottom: 1em;
+}
+article section img{
+    margin: 5em;
+}
+aside #noticias{
+    border: 1px solid #c5c5c5;
+}
+aside #publicidad{
+    margin-top: 1em;
+    border: 1px dashed #C60;
+}
